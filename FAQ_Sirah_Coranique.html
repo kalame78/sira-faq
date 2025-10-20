@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ – Sīrah Coranique</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=TT+Commons:wght@400;600;700&display=swap');
+
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'TT Commons', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #fbc576;
+      font-size: 2.4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ffffff;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      background-color: #0a0a0a;
+      border: 1px solid #fbc576;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .faq-question {
+      color: #fbc576;
+      cursor: pointer;
+      padding: 18px 20px;
+      font-size: 1.1em;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question:hover {
+      background-color: #111111;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      background-color: #000000;
+      color: #ffffff;
+      font-size: 1em;
+      line-height: 1.6;
+      transition: all 0.4s ease;
+      padding: 0 20px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 400px;
+      padding: 18px 20px 24px;
+    }
+
+    .faq-item.active .icon::before {
+      content: "–";
+      transform: rotate(180deg);
+    }
+
+    .icon {
+      font-size: 1.6em;
+      color: #fbc576;
+      transition: transform 0.4s ease;
+    }
+
+    .icon::before {
+      content: "+";
+    }
+
+    .faq-footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #fbc576;
+      font-size: 1.1em;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 24px 12px; }
+      .faq-question { font-size: 1em; }
+      h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🌙 FAQ – Foire aux Questions</h1>
+  <h2>Découvrez tout ce qu’il faut savoir avant d’inscrire votre enfant au programme Sīrah Coranique</h2>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question">1. À qui s’adresse le programme ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Le programme <strong>Sīrah Coranique</strong> s’adresse aux enfants de <strong>7 à 12 ans</strong>, qu’ils découvrent ou approfondissent la vie du Prophète ﷺ à travers le Coran, les jeux et les récits.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">2. Comment se déroulent les séances ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Les cours ont lieu <strong>en direct sur Zoom</strong>, deux samedis par mois.  
+        Chaque séance combine <strong>versets, jeux, défis créatifs, récits et Réalité Augmentée (RA)</strong>.  
+        Les enfants participent depuis la maison avec un simple smartphone, tablette ou ordinateur.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">3. Faut-il acheter le livre <em>Infographie de la Vie du Prophète ﷺ</em> ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Non, ce n’est <strong>pas obligatoire</strong>, mais c’est <strong>fortement encouragé</strong>.  
+        Acheter ce livre, c’est <strong>honorer le travail d’Émir Abou Fâres</strong>, qui nous a accordé une <strong>autorisation exclusive</strong> pour le programme.  
+        Le livre permet à votre enfant de revoir et vivre les scènes prophétiques au-delà des cours.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">4. Quel est le tarif ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Le programme est proposé au <strong>tarif familial de 200 € par an</strong> ou <strong>20 € par mois pendant 10 mois</strong>.  
+        Ce tarif inclut toutes les séances, la plateforme, les jeux et la RA.  
+        🏡 <strong>Un seul abonnement par foyer</strong> : les fratries du même domicile peuvent participer sans frais supplémentaires.  
+        ⚠️ L’abonnement est réservé à un <strong>usage familial privé</strong>.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">5. Et si mon enfant manque une séance ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Pas de souci 🤍 Les <strong>replays</strong> sont accessibles sur la plateforme sécurisée à tout moment.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">6. Comment fonctionne la Réalité Augmentée ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Grâce à un <strong>QR code</strong>, les enfants peuvent projeter les objets et lieux du livre directement dans leur environnement.  
+        Même sans appareil compatible, les visuels 3D s’affichent à l’écran.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">7. Mon enfant doit-il savoir lire le Coran ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Pas forcément 🌱 Les versets sont lus, écoutés et expliqués en groupe.  
+        L’objectif n’est pas la performance, mais la compréhension et l’amour du Message.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">8. Les parents peuvent-ils suivre les cours ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Oui, et c’est même recommandé 💛  
+        De nombreux parents témoignent que ces séances nourrissent aussi leur foi et leur compréhension du Coran.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">9. Est-ce conforme à l’éthique islamique ?<span class="icon"></span></div>
+      <div class="faq-answer">
+        Oui, 100 %.  
+        Tous les contenus respectent les valeurs de l’islam : aucune représentation du Prophète ﷺ ni éléments contraires à la foi.
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-footer">
+    ✨ “Notre mission : que chaque enfant quitte ce programme avec un cœur plus attaché au Coran et au Prophète ﷺ.”
+  </div>
+
+  <script>
+    const faqs = document.querySelectorAll('.faq-item');
+    faqs.forEach(faq => {
+      faq.addEventListener('click', () => {
+        faq.classList.toggle('active');
+        faqs.forEach(other => {
+          if (other !== faq) other.classList.remove('active');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
